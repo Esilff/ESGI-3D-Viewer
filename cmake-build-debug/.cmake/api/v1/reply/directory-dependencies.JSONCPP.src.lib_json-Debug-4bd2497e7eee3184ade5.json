@@ -33,7 +33,7 @@
 				"lib/libjsoncpp.a"
 			],
 			"targetId" : "jsoncpp_static::@42fe3c42d12245e64486",
-			"targetIndex" : 48,
+			"targetIndex" : 47,
 			"type" : "target"
 		},
 		{
@@ -56,7 +56,7 @@
 				}
 			],
 			"targetId" : "jsoncpp_object::@42fe3c42d12245e64486",
-			"targetIndex" : 46,
+			"targetIndex" : 45,
 			"type" : "target"
 		}
 	],

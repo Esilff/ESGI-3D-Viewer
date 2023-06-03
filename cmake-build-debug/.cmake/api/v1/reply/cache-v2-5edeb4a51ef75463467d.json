@@ -1167,7 +1167,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "13"
+			"value" : "11"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2386,6 +2386,42 @@
 			"value" : ""
 		},
 		{
+			"name" : "TINYOBJLOADER_BUILD_OBJ_STICHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build OBJ Sticher Application"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TINYOBJLOADER_BUILD_TEST_LOADER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build Example Loader Application"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TINYOBJLOADER_USE_DOUBLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build library with double precision instead of single (float)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "XINPUT_H_FOUND",
 			"properties" : 
 			[
@@ -2612,6 +2648,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP"
+		},
+		{
+			"name" : "tinyobjloader_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/tinyobjloader"
+		},
+		{
+			"name" : "tinyobjloader_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "tinyobjloader_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader"
 		}
 	],
 	"kind" : "cache",

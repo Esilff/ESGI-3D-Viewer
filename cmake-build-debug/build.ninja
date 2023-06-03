@@ -53,7 +53,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/main.cpp.obj: CXX_COMPILER__ESGI_3D_View
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src
 
@@ -61,7 +61,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/window.cpp.obj: CXX_COMPILER__ESGI_
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\window.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core
 
@@ -69,15 +69,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/Entity.cpp.obj: CXX_COMPILER_
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\world\Entity.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
-  OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
-  OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\world
-
-build CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/scene.cpp.obj: CXX_COMPILER__ESGI_3D_Viewer_Debug C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/src/core/world/scene.cpp || cmake_object_order_depends_target_ESGI_3D_Viewer
-  DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
-  DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\world\scene.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\world
 
@@ -85,7 +77,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/system/Time.cpp.obj: CXX_COMPILER__
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\system\Time.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\system
 
@@ -93,7 +85,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/texture.cpp.obj: CXX_COMP
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\rendering\texture.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\rendering
 
@@ -101,7 +93,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/shader.cpp.obj: CXX_COMPI
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\rendering\shader.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\rendering
 
@@ -109,7 +101,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/mesh.cpp.obj: CXX_COMPILE
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\rendering\mesh.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\rendering
 
@@ -117,7 +109,7 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/events/Mouse.cpp.obj: CXX_COMPILER_
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\events\Mouse.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\events
 
@@ -125,9 +117,25 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/events/Keyboard.cpp.obj: CXX_COMPIL
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\events\Keyboard.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\events
+
+build CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/transform.cpp.obj: CXX_COMPILER__ESGI_3D_Viewer_Debug C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/src/core/world/transform.cpp || cmake_object_order_depends_target_ESGI_3D_Viewer
+  DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
+  DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\world\transform.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
+  OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
+  OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\world
+
+build CMakeFiles/ESGI_3D_Viewer.dir/src/core/math/math.cpp.obj: CXX_COMPILER__ESGI_3D_Viewer_Debug C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/src/core/math/math.cpp || cmake_object_order_depends_target_ESGI_3D_Viewer
+  DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
+  DEP_FILE = CMakeFiles\ESGI_3D_Viewer.dir\src\core\math\math.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/include
+  OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
+  OBJECT_FILE_DIR = CMakeFiles\ESGI_3D_Viewer.dir\src\core\math
 
 
 # =============================================================================
@@ -137,9 +145,9 @@ build CMakeFiles/ESGI_3D_Viewer.dir/src/core/events/Keyboard.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable bin\ESGI_3D_Viewer.exe
 
-build bin/ESGI_3D_Viewer.exe: CXX_EXECUTABLE_LINKER__ESGI_3D_Viewer_Debug CMakeFiles/ESGI_3D_Viewer.dir/src/main.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/window.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/Entity.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/scene.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/system/Time.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/texture.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/shader.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/mesh.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/events/Mouse.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/events/Keyboard.cpp.obj | lib/libglfw3.a lib/libglad.a || lib/libglad.a lib/libglfw3.a
+build bin/ESGI_3D_Viewer.exe: CXX_EXECUTABLE_LINKER__ESGI_3D_Viewer_Debug CMakeFiles/ESGI_3D_Viewer.dir/src/main.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/window.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/Entity.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/system/Time.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/texture.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/shader.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/rendering/mesh.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/events/Mouse.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/events/Keyboard.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/transform.cpp.obj CMakeFiles/ESGI_3D_Viewer.dir/src/core/math/math.cpp.obj | lib/libglfw3.a lib/libglad.a || lib/libglad.a lib/libglfw3.a
   FLAGS = -g
-  LINK_LIBRARIES = lib/libglfw3.a  lib/libglad.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = lib/libglfw3.a  lib/libglad.a  -lopengl32  -lglm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ESGI_3D_Viewer.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -160,7 +168,7 @@ build CMakeFiles/glad.dir/dependencies/GLAD/src/glad.c.obj: C_COMPILER__glad_Deb
   DEFINES = -DSOURCE_DIR=\"C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer\"
   DEP_FILE = CMakeFiles\glad.dir\dependencies\GLAD\src\glad.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb
+  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/../../include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/include/json -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader
   OBJECT_DIR = CMakeFiles\glad.dir
   OBJECT_FILE_DIR = CMakeFiles\glad.dir\dependencies\GLAD\src
 
@@ -2058,178 +2066,6 @@ build dependencies/GLFW/tests/install/strip: phony dependencies/GLFW/tests/CMake
 
 
 #############################################
-# Utility command for edit_cache
-
-build dependencies/GLM/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build dependencies/GLM/edit_cache: phony dependencies/GLM/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build dependencies/GLM/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Esilff\Documents\Git\ESGI-3D-Viewer -BC:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/rebuild_cache: phony dependencies/GLM/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build dependencies/GLM/list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build dependencies/GLM/CMakeFiles/install.util: CUSTOM_COMMAND dependencies/GLM/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/install: phony dependencies/GLM/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/local
-
-build dependencies/GLM/CMakeFiles/install/local.util: CUSTOM_COMMAND dependencies/GLM/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/install/local: phony dependencies/GLM/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install/strip
-
-build dependencies/GLM/CMakeFiles/install/strip.util: CUSTOM_COMMAND dependencies/GLM/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/install/strip: phony dependencies/GLM/CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target glm_static
-
-
-#############################################
-# Order-only phony target for glm_static
-
-build cmake_object_order_depends_target_glm_static: phony || dependencies/GLM/glm/CMakeFiles/glm_static.dir
-
-build dependencies/GLM/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj: CXX_COMPILER__glm_static_Debug C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM/glm/detail/glm.cpp || cmake_object_order_depends_target_glm_static
-  DEP_FILE = dependencies\GLM\glm\CMakeFiles\glm_static.dir\detail\glm.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLAD/include -IC:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM
-  OBJECT_DIR = dependencies\GLM\glm\CMakeFiles\glm_static.dir
-  OBJECT_FILE_DIR = dependencies\GLM\glm\CMakeFiles\glm_static.dir\detail
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target glm_static
-
-
-#############################################
-# Link the static library lib\libglm_static.a
-
-build lib/libglm_static.a: CXX_STATIC_LIBRARY_LINKER__glm_static_Debug dependencies/GLM/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = dependencies\GLM\glm\CMakeFiles\glm_static.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lib\libglm_static.a
-  TARGET_PDB = glm_static.a.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build dependencies/GLM/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM\glm && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build dependencies/GLM/glm/edit_cache: phony dependencies/GLM/glm/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build dependencies/GLM/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM\glm && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Esilff\Documents\Git\ESGI-3D-Viewer -BC:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/glm/rebuild_cache: phony dependencies/GLM/glm/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build dependencies/GLM/glm/list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build dependencies/GLM/glm/CMakeFiles/install.util: CUSTOM_COMMAND dependencies/GLM/glm/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM\glm && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/glm/install: phony dependencies/GLM/glm/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/local
-
-build dependencies/GLM/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND dependencies/GLM/glm/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM\glm && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/glm/install/local: phony dependencies/GLM/glm/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install/strip
-
-build dependencies/GLM/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND dependencies/GLM/glm/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\dependencies\GLM\glm && C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build dependencies/GLM/glm/install/strip: phony dependencies/GLM/glm/CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
 # Utility command for Experimental
 
 build dependencies/JSONCPP/Experimental: phony dependencies/JSONCPP/CMakeFiles/Experimental
@@ -3324,8 +3160,6 @@ build glfwinfo: phony bin/glfwinfo.exe
 
 build glfwinfo.exe: phony bin/glfwinfo.exe
 
-build glm_static: phony lib/libglm_static.a
-
 build heightmap: phony bin/heightmap.exe
 
 build heightmap.exe: phony bin/heightmap.exe
@@ -3365,8 +3199,6 @@ build jsontestrunner_exe.exe: phony bin/jsontestrunner_exe.exe
 build libglad.a: phony lib/libglad.a
 
 build libglfw3.a: phony lib/libglfw3.a
-
-build libglm_static.a: phony lib/libglm_static.a
 
 build libjsoncpp.a: phony lib/libjsoncpp.a
 
@@ -3446,7 +3278,7 @@ build windows.exe: phony bin/windows.exe
 #############################################
 # Folder: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug
 
-build all: phony bin/ESGI_3D_Viewer.exe lib/libglad.a dependencies/GLFW/all dependencies/GLM/all dependencies/JSONCPP/all
+build all: phony bin/ESGI_3D_Viewer.exe lib/libglad.a dependencies/GLFW/all dependencies/JSONCPP/all
 
 # =============================================================================
 
@@ -3475,20 +3307,6 @@ build dependencies/GLFW/src/all: phony lib/libglfw3.a
 # Folder: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/GLFW/tests
 
 build dependencies/GLFW/tests/all: phony bin/clipboard.exe bin/events.exe bin/msaa.exe bin/glfwinfo.exe bin/iconify.exe bin/monitors.exe bin/reopen.exe bin/cursor.exe bin/empty.exe bin/gamma.exe bin/icon.exe bin/inputlag.exe bin/joysticks.exe bin/opacity.exe bin/tearing.exe bin/threads.exe bin/timeout.exe bin/title.exe bin/triangle-vulkan.exe bin/windows.exe
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/GLM
-
-build dependencies/GLM/all: phony dependencies/GLM/glm/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/GLM/glm
-
-build dependencies/GLM/glm/all: phony lib/libglm_static.a
 
 # =============================================================================
 
@@ -3544,14 +3362,14 @@ build dependencies/JSONCPP/src/test_lib_json/all: phony bin/jsoncpp_test.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTest.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestTargets.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestUseLaunchers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckStructHasMember.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/DartConfiguration.tcl.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindDoxygen.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython3.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython/Support.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindThreads.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/cmake_uninstall.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/examples/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3Config.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw_config.h.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/tests/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM/glm/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CTestConfig.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/cmake/JoinPaths.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInBuildInstalls.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInSourceBuilds.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/jsoncppConfig.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/pkg-config/jsoncpp.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/jsontestrunner/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/test_lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/version.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTest.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestTargets.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestUseLaunchers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckStructHasMember.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/DartConfiguration.tcl.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindDoxygen.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython3.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython/Support.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindThreads.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/cmake_uninstall.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/examples/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3Config.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw_config.h.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/tests/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CTestConfig.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/cmake/JoinPaths.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInBuildInstalls.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInSourceBuilds.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/jsoncppConfig.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/pkg-config/jsoncpp.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/jsontestrunner/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/test_lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/version.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTest.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestTargets.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestUseLaunchers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckStructHasMember.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/DartConfiguration.tcl.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindDoxygen.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython3.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython/Support.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindThreads.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/cmake_uninstall.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/examples/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3Config.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw_config.h.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/tests/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLM/glm/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CTestConfig.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/cmake/JoinPaths.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInBuildInstalls.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInSourceBuilds.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/jsoncppConfig.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/pkg-config/jsoncpp.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/jsontestrunner/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/test_lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/version.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDependentOption.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTest.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestTargets.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CTestUseLaunchers.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckCXXSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckStructHasMember.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckSymbolExists.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/DartConfiguration.tcl.in C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindDoxygen.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython3.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPython/Support.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/FindThreads.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/cmake_uninstall.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/examples/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw3Config.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/src/glfw_config.h.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/GLFW/tests/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/CTestConfig.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/cmake/JoinPaths.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInBuildInstalls.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/include/PreventInSourceBuilds.cmake C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/jsoncppConfig.cmake.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/pkg-config/jsoncpp.pc.in C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/jsontestrunner/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/src/test_lib_json/CMakeLists.txt C$:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP/version.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################

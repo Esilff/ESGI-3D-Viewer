@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/GLFW/cmake_install.cmake")
-  include("C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/GLM/cmake_install.cmake")
   include("C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/cmake_install.cmake")
 
 endif()

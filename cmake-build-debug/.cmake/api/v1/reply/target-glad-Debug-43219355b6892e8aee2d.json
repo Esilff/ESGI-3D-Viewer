@@ -33,7 +33,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 37,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -45,7 +45,13 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 28,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -89,6 +95,10 @@
 				{
 					"backtrace" : 5,
 					"path" : "C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/stb"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader"
 				}
 			],
 			"language" : "C",

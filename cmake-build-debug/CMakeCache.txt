@@ -432,6 +432,15 @@ Project_SOURCE_DIR:STATIC=C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer
 //Name of the computer/site where compile is being run
 SITE:STRING=DESKTOP-K3ADCD5
 
+//Build OBJ Sticher Application
+TINYOBJLOADER_BUILD_OBJ_STICHER:BOOL=OFF
+
+//Build Example Loader Application
+TINYOBJLOADER_BUILD_TEST_LOADER:BOOL=OFF
+
+//Build library with double precision instead of single (float)
+TINYOBJLOADER_USE_DOUBLE:BOOL=OFF
+
 //Value Computed by CMake
 glm_BINARY_DIR:STATIC=C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/GLM
 
@@ -449,6 +458,15 @@ jsoncpp_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 jsoncpp_SOURCE_DIR:STATIC=C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/JSONCPP
+
+//Value Computed by CMake
+tinyobjloader_BINARY_DIR:STATIC=C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/tinyobjloader
+
+//Value Computed by CMake
+tinyobjloader_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+tinyobjloader_SOURCE_DIR:STATIC=C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/dependencies/tinyobjloader
 
 
 ########################
@@ -589,7 +607,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

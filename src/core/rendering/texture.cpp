@@ -13,7 +13,18 @@ Texture::Texture(const std::string &path) {
         std::cout << "Failed to load texture at : \n" << m_path << std::endl;
     }
     glTexImage2D(GL_TEXTURE_2D,0, GL_RGBA, m_width, m_height, 0, GL_RGBA, GL_UNSIGNED_BYTE, m_data);
-    glGenerateMipmap(GL_TEXTURE_2D);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, m_width, m_height, 0, GL_RGBA, GL_UNSIGNED_BYTE, m_data);
+    int level = 1;
+    int currentWidth = m_width;
+    int currentHeight = m_height;
+
+    while (currentWidth > 1 || currentHeight > 1) {
+        currentWidth = std::max(1, currentWidth /2);
+        currentHeight = std::max(1, currentHeight/2);
+        glTexImage2D(GL_TEXTURE_2D, level, GL_RGBA, currentWidth, currentHeight, 0, GL_RGBA, GL_UNSIGNED_BYTE, NULL);
+        level++;
+    }
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
 }
 
 void Texture::bind(int texId) {
