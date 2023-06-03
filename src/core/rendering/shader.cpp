@@ -88,3 +88,7 @@ void Shader::loadShader() {
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 }
+
+unsigned int Shader::getProgId() {
+    return m_program;
+}

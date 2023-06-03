@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.22621 - AMD64
+The system is: Windows - 10.0.19045 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/gcc.exe 
 Build flags: 
@@ -26,9 +26,12 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is GNU, found in "C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w6l9mi
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9uvx4g
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_56963 && [1/2] Building C object CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_75f22/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_75f22.dir\build.make CMakeFiles/cmTC_75f22.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9uvx4g'
+Building C object CMakeFiles/cmTC_75f22.dir/CMakeCCompilerABI.c.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj -c C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe
 Target: x86_64-w64-mingw32
@@ -36,8 +39,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56963.dir/'
- C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_56963.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\ccufAR8f.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75f22.dir\'
+ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_75f22.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\cc01PEub.s
 GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -58,13 +61,17 @@ GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 23424b72d090e8b977a96775bde79257
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56963.dir/'
- as -v -o CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj C:\Users\Esilff\AppData\Local\Temp\ccufAR8f.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75f22.dir\'
+ as -v -o CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj C:\Users\Esilff\AppData\Local\Temp\cc01PEub.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_56963.exe
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_75f22.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_75f22.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_75f22.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_75f22.dir/objects.a @CMakeFiles\cmTC_75f22.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_75f22.dir/objects.a -Wl,--no-whole-archive -o cmTC_75f22.exe -Wl,--out-implib,libcmTC_75f22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -75,9 +82,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56963.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_56963.'
- C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_56963.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_56963.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56963.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_56963.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75f22.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75f22.'
+ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_75f22.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_75f22.dir/objects.a --no-whole-archive --out-implib libcmTC_75f22.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75f22.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75f22.'
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9uvx4g'
 
 
 
@@ -98,9 +106,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w6l9mi]
+  ignore line: [Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9uvx4g]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_56963 && [1/2] Building C object CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_75f22/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_75f22.dir\build.make CMakeFiles/cmTC_75f22.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9uvx4g']
+  ignore line: [Building C object CMakeFiles/cmTC_75f22.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj -c C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -108,8 +119,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56963.dir/']
-  ignore line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_56963.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\ccufAR8f.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75f22.dir\']
+  ignore line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_75f22.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\cc01PEub.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -130,8 +141,8 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56963.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj C:\Users\Esilff\AppData\Local\Temp\ccufAR8f.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75f22.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj C:\Users\Esilff\AppData\Local\Temp\cc01PEub.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/]
@@ -141,8 +152,12 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_56963.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75f22.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_75f22.exe]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_75f22.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_75f22.dir/objects.a]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_75f22.dir/objects.a @CMakeFiles\cmTC_75f22.dir\objects1]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_75f22.dir/objects.a -Wl --no-whole-archive -o cmTC_75f22.exe -Wl --out-implib libcmTC_75f22.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -159,14 +174,14 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56963.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_56963.']
-  link line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_56963.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_56963.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75f22.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75f22.']
+  link line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_75f22.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_75f22.dir/objects.a --no-whole-archive --out-implib libcmTC_75f22.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_56963.exe] ==> ignore
+    arg [cmTC_75f22.exe] ==> ignore
     arg [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -175,9 +190,11 @@ Parsed C implicit link information from above output:
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
-    arg [CMakeFiles/cmTC_56963.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_75f22.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_56963.dll.a] ==> ignore
+    arg [libcmTC_75f22.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -225,9 +242,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w6cq0g
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15cti
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_02d60 && [1/2] Building CXX object CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d7fb9/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d7fb9.dir\build.make CMakeFiles/cmTC_d7fb9.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15cti'
+Building CXX object CMakeFiles/cmTC_d7fb9.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe
 Target: x86_64-w64-mingw32
@@ -235,8 +255,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02d60.dir/'
- C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02d60.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\cc3co3tr.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d7fb9.dir\'
+ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_d7fb9.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\ccRhrBba.s
 GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -263,13 +283,17 @@ GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02d60.dir/'
- as -v -o CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Esilff\AppData\Local\Temp\cc3co3tr.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d7fb9.dir\'
+ as -v -o CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Esilff\AppData\Local\Temp\ccRhrBba.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_02d60.exe
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_d7fb9.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d7fb9.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d7fb9.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_d7fb9.dir/objects.a @CMakeFiles\cmTC_d7fb9.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_d7fb9.dir/objects.a -Wl,--no-whole-archive -o cmTC_d7fb9.exe -Wl,--out-implib,libcmTC_d7fb9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe
 COLLECT_LTO_WRAPPER=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -280,9 +304,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02d60.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02d60.'
- C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_02d60.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_02d60.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02d60.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02d60.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7fb9.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7fb9.'
+ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_d7fb9.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_d7fb9.dir/objects.a --no-whole-archive --out-implib libcmTC_d7fb9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7fb9.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7fb9.'
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15cti'
 
 
 
@@ -309,9 +334,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w6cq0g]
+  ignore line: [Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15cti]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_02d60 && [1/2] Building CXX object CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d7fb9/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d7fb9.dir\build.make CMakeFiles/cmTC_d7fb9.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15cti']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d7fb9.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -319,8 +347,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02d60.dir/']
-  ignore line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02d60.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\cc3co3tr.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d7fb9.dir\']
+  ignore line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_d7fb9.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Esilff\AppData\Local\Temp\ccRhrBba.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -347,8 +375,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02d60.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Esilff\AppData\Local\Temp\cc3co3tr.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d7fb9.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Esilff\AppData\Local\Temp\ccRhrBba.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/]
@@ -358,8 +386,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_02d60.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d7fb9.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_d7fb9.exe]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d7fb9.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d7fb9.dir/objects.a]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_d7fb9.dir/objects.a @CMakeFiles\cmTC_d7fb9.dir\objects1]
+  ignore line: [C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_d7fb9.dir/objects.a -Wl --no-whole-archive -o cmTC_d7fb9.exe -Wl --out-implib libcmTC_d7fb9.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -376,14 +408,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02d60.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02d60.']
-  link line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_02d60.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_02d60.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7fb9.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7fb9.']
+  link line: [ C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_d7fb9.exe C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_d7fb9.dir/objects.a --no-whole-archive --out-implib libcmTC_d7fb9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_02d60.exe] ==> ignore
+    arg [cmTC_d7fb9.exe] ==> ignore
     arg [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -392,9 +424,11 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
-    arg [CMakeFiles/cmTC_02d60.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_d7fb9.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_02d60.dll.a] ==> ignore
+    arg [libcmTC_d7fb9.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -441,10 +475,18 @@ Parsed CXX implicit link information from above output:
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tn8rhn
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lxc952
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_f88bb && [1/2] Building C object CMakeFiles/cmTC_f88bb.dir/src.c.obj
-[2/2] Linking C executable cmTC_f88bb.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f5b3d/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f5b3d.dir\build.make CMakeFiles/cmTC_f5b3d.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lxc952'
+Building C object CMakeFiles/cmTC_f5b3d.dir/src.c.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles\cmTC_f5b3d.dir\src.c.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-lxc952\src.c
+Linking C executable cmTC_f5b3d.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f5b3d.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f5b3d.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_f5b3d.dir/objects.a @CMakeFiles\cmTC_f5b3d.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_f5b3d.dir/objects.a -Wl,--no-whole-archive -o cmTC_f5b3d.exe -Wl,--out-implib,libcmTC_f5b3d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f5b3d.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lxc952'
 
 
 Source file was:
@@ -470,64 +512,120 @@ int main(void)
 
 
 Determining if the include file dinput.h exists passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9pzox8
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uu0h4b
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_0384b && [1/2] Building C object CMakeFiles/cmTC_0384b.dir/CheckIncludeFile.c.obj
-[2/2] Linking C executable cmTC_0384b.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_3f34c/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3f34c.dir\build.make CMakeFiles/cmTC_3f34c.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uu0h4b'
+Building C object CMakeFiles/cmTC_3f34c.dir/CheckIncludeFile.c.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\cmTC_3f34c.dir\CheckIncludeFile.c.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-uu0h4b\CheckIncludeFile.c
+Linking C executable cmTC_3f34c.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3f34c.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_3f34c.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_3f34c.dir/objects.a @CMakeFiles\cmTC_3f34c.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_3f34c.dir/objects.a -Wl,--no-whole-archive -o cmTC_3f34c.exe -Wl,--out-implib,libcmTC_3f34c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3f34c.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uu0h4b'
 
 
 
 Determining if the include file xinput.h exists passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-18mgqk
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-78h9rq
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_498f3 && [1/2] Building C object CMakeFiles/cmTC_498f3.dir/CheckIncludeFile.c.obj
-[2/2] Linking C executable cmTC_498f3.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e1f6a/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e1f6a.dir\build.make CMakeFiles/cmTC_e1f6a.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-78h9rq'
+Building C object CMakeFiles/cmTC_e1f6a.dir/CheckIncludeFile.c.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\cmTC_e1f6a.dir\CheckIncludeFile.c.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-78h9rq\CheckIncludeFile.c
+Linking C executable cmTC_e1f6a.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e1f6a.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e1f6a.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_e1f6a.dir/objects.a @CMakeFiles\cmTC_e1f6a.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_e1f6a.dir/objects.a -Wl,--no-whole-archive -o cmTC_e1f6a.exe -Wl,--out-implib,libcmTC_e1f6a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e1f6a.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-78h9rq'
 
 
 
 Performing C SOURCE FILE Test _GLFW_HAS_DEP succeeded with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wyi1mc
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t8zgem
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_43342 && [1/2] Building C object CMakeFiles/cmTC_43342.dir/src.c.obj
-[2/2] Linking C executable cmTC_43342.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8c799/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8c799.dir\build.make CMakeFiles/cmTC_8c799.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t8zgem'
+Building C object CMakeFiles/cmTC_8c799.dir/src.c.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -fdiagnostics-color=always -o CMakeFiles\cmTC_8c799.dir\src.c.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-t8zgem\src.c
+Linking C executable cmTC_8c799.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8c799.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_8c799.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_8c799.dir/objects.a @CMakeFiles\cmTC_8c799.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\cmTC_8c799.dir/objects.a -Wl,--no-whole-archive -o cmTC_8c799.exe -Wl,--out-implib,libcmTC_8c799.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8c799.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t8zgem'
 
 
 Source file was:
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test _GLFW_HAS_ASLR succeeded with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nugkgu
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k0g2wi
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_81583 && [1/2] Building C object CMakeFiles/cmTC_81583.dir/src.c.obj
-[2/2] Linking C executable cmTC_81583.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8fd52/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8fd52.dir\build.make CMakeFiles/cmTC_8fd52.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k0g2wi'
+Building C object CMakeFiles/cmTC_8fd52.dir/src.c.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -fdiagnostics-color=always -o CMakeFiles\cmTC_8fd52.dir\src.c.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-k0g2wi\src.c
+Linking C executable cmTC_8fd52.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8fd52.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_8fd52.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_8fd52.dir/objects.a @CMakeFiles\cmTC_8fd52.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\cmTC_8fd52.dir/objects.a -Wl,--no-whole-archive -o cmTC_8fd52.exe -Wl,--out-implib,libcmTC_8fd52.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8fd52.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k0g2wi'
 
 
 Source file was:
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test _GLFW_HAS_64ASLR succeeded with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3ndesy
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3p5icc
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_84fe2 && [1/2] Building C object CMakeFiles/cmTC_84fe2.dir/src.c.obj
-[2/2] Linking C executable cmTC_84fe2.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_0b4d0/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0b4d0.dir\build.make CMakeFiles/cmTC_0b4d0.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3p5icc'
+Building C object CMakeFiles/cmTC_0b4d0.dir/src.c.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -fdiagnostics-color=always -o CMakeFiles\cmTC_0b4d0.dir\src.c.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-3p5icc\src.c
+Linking C executable cmTC_0b4d0.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_0b4d0.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_0b4d0.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_0b4d0.dir/objects.a @CMakeFiles\cmTC_0b4d0.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\cmTC_0b4d0.dir/objects.a -Wl,--no-whole-archive -o cmTC_0b4d0.exe -Wl,--out-implib,libcmTC_0b4d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0b4d0.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3p5icc'
 
 
 Source file was:
 int main(void) { return 0; }
 
 Determining if the include file clocale exists passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ksglos
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p56ond
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_04ee9 && [1/2] Building CXX object CMakeFiles/cmTC_04ee9.dir/CheckIncludeFile.cxx.obj
-[2/2] Linking CXX executable cmTC_04ee9.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ba36d/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ba36d.dir\build.make CMakeFiles/cmTC_ba36d.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p56ond'
+Building CXX object CMakeFiles/cmTC_ba36d.dir/CheckIncludeFile.cxx.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always -std=c++11 -o CMakeFiles\cmTC_ba36d.dir\CheckIncludeFile.cxx.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-p56ond\CheckIncludeFile.cxx
+Linking CXX executable cmTC_ba36d.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ba36d.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_ba36d.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ba36d.dir/objects.a @CMakeFiles\cmTC_ba36d.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_ba36d.dir/objects.a -Wl,--no-whole-archive -o cmTC_ba36d.exe -Wl,--out-implib,libcmTC_ba36d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ba36d.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p56ond'
 
 
 
 Determining if the localeconv exist passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c3g1h4
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84gtpg
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_b32bf && [1/2] Building CXX object CMakeFiles/cmTC_b32bf.dir/CheckSymbolExists.cxx.obj
-[2/2] Linking CXX executable cmTC_b32bf.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b556b/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b556b.dir\build.make CMakeFiles/cmTC_b556b.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84gtpg'
+Building CXX object CMakeFiles/cmTC_b556b.dir/CheckSymbolExists.cxx.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always -std=c++11 -o CMakeFiles\cmTC_b556b.dir\CheckSymbolExists.cxx.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-84gtpg\CheckSymbolExists.cxx
+Linking CXX executable cmTC_b556b.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b556b.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b556b.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_b556b.dir/objects.a @CMakeFiles\cmTC_b556b.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_b556b.dir/objects.a -Wl,--no-whole-archive -o cmTC_b556b.exe -Wl,--out-implib,libcmTC_b556b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b556b.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84gtpg'
 
 
 File CheckSymbolExists.cxx:
@@ -546,42 +644,82 @@ int main(int argc, char** argv)
 }
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v0yk31
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tdk99m
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_3e3f4 && [1/2] Building CXX object CMakeFiles/cmTC_3e3f4.dir/CheckIncludeFile.cxx.obj
-[2/2] Linking CXX executable cmTC_3e3f4.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ff8b8/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ff8b8.dir\build.make CMakeFiles/cmTC_ff8b8.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tdk99m'
+Building CXX object CMakeFiles/cmTC_ff8b8.dir/CheckIncludeFile.cxx.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always -std=c++11 -o CMakeFiles\cmTC_ff8b8.dir\CheckIncludeFile.cxx.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-tdk99m\CheckIncludeFile.cxx
+Linking CXX executable cmTC_ff8b8.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ff8b8.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_ff8b8.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ff8b8.dir/objects.a @CMakeFiles\cmTC_ff8b8.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_ff8b8.dir/objects.a -Wl,--no-whole-archive -o cmTC_ff8b8.exe -Wl,--out-implib,libcmTC_ff8b8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ff8b8.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tdk99m'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b8rnet
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-64j23p
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_d543f && [1/2] Building CXX object CMakeFiles/cmTC_d543f.dir/CheckIncludeFile.cxx.obj
-[2/2] Linking CXX executable cmTC_d543f.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_bc7a2/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bc7a2.dir\build.make CMakeFiles/cmTC_bc7a2.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-64j23p'
+Building CXX object CMakeFiles/cmTC_bc7a2.dir/CheckIncludeFile.cxx.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always -std=c++11 -o CMakeFiles\cmTC_bc7a2.dir\CheckIncludeFile.cxx.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-64j23p\CheckIncludeFile.cxx
+Linking CXX executable cmTC_bc7a2.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_bc7a2.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_bc7a2.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_bc7a2.dir/objects.a @CMakeFiles\cmTC_bc7a2.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_bc7a2.dir/objects.a -Wl,--no-whole-archive -o cmTC_bc7a2.exe -Wl,--out-implib,libcmTC_bc7a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bc7a2.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-64j23p'
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-85m4rw
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ggw696
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_7ee8e && [1/2] Building CXX object CMakeFiles/cmTC_7ee8e.dir/CheckIncludeFile.cxx.obj
-[2/2] Linking CXX executable cmTC_7ee8e.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8656d/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8656d.dir\build.make CMakeFiles/cmTC_8656d.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ggw696'
+Building CXX object CMakeFiles/cmTC_8656d.dir/CheckIncludeFile.cxx.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always -std=c++11 -o CMakeFiles\cmTC_8656d.dir\CheckIncludeFile.cxx.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-ggw696\CheckIncludeFile.cxx
+Linking CXX executable cmTC_8656d.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8656d.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_8656d.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_8656d.dir/objects.a @CMakeFiles\cmTC_8656d.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_8656d.dir/objects.a -Wl,--no-whole-archive -o cmTC_8656d.exe -Wl,--out-implib,libcmTC_8656d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8656d.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ggw696'
 
 
 
 Determining size of lconv passed with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qygoz5
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c674rl
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_a2c38 && [1/2] Building CXX object CMakeFiles/cmTC_a2c38.dir/LCONV_SIZE.cpp.obj
-[2/2] Linking CXX executable cmTC_a2c38.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_74829/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_74829.dir\build.make CMakeFiles/cmTC_74829.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c674rl'
+Building CXX object CMakeFiles/cmTC_74829.dir/LCONV_SIZE.cpp.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe   -fdiagnostics-color=always -std=c++11 -o CMakeFiles\cmTC_74829.dir\LCONV_SIZE.cpp.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-c674rl\LCONV_SIZE.cpp
+Linking CXX executable cmTC_74829.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_74829.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_74829.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_74829.dir/objects.a @CMakeFiles\cmTC_74829.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_74829.dir/objects.a -Wl,--no-whole-archive -o cmTC_74829.exe -Wl,--out-implib,libcmTC_74829.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_74829.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c674rl'
 
 
 
 Performing C++ SOURCE FILE Test HAVE_DECIMAL_POINT succeeded with the following output:
-Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njt1gp
+Change Dir: C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lc92pu
 
-Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe cmTC_88cd8 && [1/2] Building CXX object CMakeFiles/cmTC_88cd8.dir/src.cxx.obj
-[2/2] Linking CXX executable cmTC_88cd8.exe
+Run Build Command(s):C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6015b/fast && C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6015b.dir\build.make CMakeFiles/cmTC_6015b.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lc92pu'
+Building CXX object CMakeFiles/cmTC_6015b.dir/src.cxx.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -DHAVE_DECIMAL_POINT  -fdiagnostics-color=always -std=c++11 -o CMakeFiles\cmTC_6015b.dir\src.cxx.obj -c C:\Users\Esilff\Documents\Git\ESGI-3D-Viewer\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-lc92pu\src.cxx
+Linking CXX executable cmTC_6015b.exe
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6015b.dir\link.txt --verbose=1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_6015b.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_6015b.dir/objects.a @CMakeFiles\cmTC_6015b.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_6015b.dir/objects.a -Wl,--no-whole-archive -o cmTC_6015b.exe -Wl,--out-implib,libcmTC_6015b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6015b.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lc92pu'
 
 
 Source file was:

@@ -1,13 +1,15 @@
 #include "window.h"
 #include "world/entity.h"
-#include "world/scene.h"
+#include "world/Camera.h"
 #include "system/Time.h"
 #include "events/events.h"
 
 
 
 void Window::init() {
-    setAppParams();
+    m_width = 640;
+    m_height = 480;
+    m_name = "ESGI-3D-Viewer";
     if (!glfwInit()) {
         throw std::runtime_error("Unable to initialize GLFW");
     }
@@ -20,10 +22,6 @@ void Window::init() {
     if(!gladLoadGL()) {
         throw std::runtime_error("Unable to initialize GLAD");
     }
-    if (GL_DEBUG_FLAG) {
-        glEnable(GL_DEBUG_OUTPUT);
-        glDebugMessageCallback(GLUtil::glDebugCallback, nullptr);
-    }
     m_frameCap = 1.0/m_fps;
     glfwSwapInterval(1);//Activating vsync by default
     setCallbacks();
@@ -35,22 +33,15 @@ void Window::loop() {
     double frameTime = 0;
     double unprocessed = 1;
     double frames = 0;
-    Scene s;
-    s.addEntity();
-    s.addEntity(Entity {
-            Mesh {
-                    {
-                            1.0f,0.0f,0.0f,1.0f,0.0f,0.0f,1.0f,
-                            1.0f,1.0f,0.0f,0.0f,1.0f,0.0f,1.0f,
-                            0.0,1.0f,0.0f,0.0f,0.0f,1.0f,0.0f
-                    },
-                    {0,1,2}, {XYZ, RGBA}
-            }, Shader()
-    });
+    Mesh mesh = Mesh("assets/obj/test.obj");
+    Shader shader = Shader("src/shaders/default.glsl");
+    Camera camera = Camera();
     while (!glfwWindowShouldClose(m_window)) {
         Time::update();
         frameTime += Time::dt();
         unprocessed += Time::dt();
+
+
 
         while(unprocessed > m_frameCap) {
             unprocessed -= m_frameCap;
@@ -61,6 +52,8 @@ void Window::loop() {
             glClearColor(.1f,.1f,.1f,1.f);
             glClear(GL_COLOR_BUFFER_BIT);
             //s.update();
+            shader.bind();
+            mesh.draw(camera, shader.getProgId());
             if (Events::mouseDragging()) {
                 std::cout << "Dragging" << std::endl;
             }
@@ -87,26 +80,3 @@ void Window::updateEvents() {
     glfwPollEvents();
 }
 
-void Window::setAppParams() {
-    Json::Value appInfo = readAppInfo();
-    m_name = appInfo["name"].asString();
-    m_width = appInfo["defaultWidth"].asInt();
-    m_height = appInfo["defaultHeight"].asInt();
-}
-
-Json::Value Window::readAppInfo() {
-    std::ifstream file(std::string(SOURCE_DIR) + "/data/app.config.json");
-    if (!file.is_open()) {
-        throw std::runtime_error("No app config found to initialize window. (No app.config.json found in data)");
-    }
-    std::string line, jsonContent;
-    while(std::getline(file, line)) jsonContent += line;
-    file.close();
-    Json::Value root;
-    Json::Reader reader;
-    bool success = reader.parse(jsonContent, root, false);
-    if (!success) {
-        throw std::runtime_error("Unable to parse app.config.json check the file again for errors");
-    }
-    return root;
-}

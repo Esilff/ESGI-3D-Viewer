@@ -36,6 +36,8 @@ public:
     void bind();
     void unbind();
 
+    unsigned int getProgId();
+
 
 };
 

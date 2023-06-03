@@ -1,0 +1,2 @@
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc ..\..\..\..\lib\libjsoncpp.a CMakeFiles/jsoncpp_static.dir/json_reader.cpp.obj CMakeFiles/jsoncpp_static.dir/json_value.cpp.obj CMakeFiles/jsoncpp_static.dir/json_writer.cpp.obj
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ranlib.exe ..\..\..\..\lib\libjsoncpp.a

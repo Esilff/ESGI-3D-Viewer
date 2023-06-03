@@ -4,7 +4,6 @@
 #include <string>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <json/json.h>
 #include <fstream>
 #include <stdexcept>
 #include "util/glUtil.h"
@@ -29,8 +28,6 @@ class Window {
 
     void init();
     void loop();
-    Json::Value readAppInfo();
-    void setAppParams();
     void setCallbacks();
     void updateEvents();
 

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ESGI_3D_Viewer")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/GLFW/cmake_install.cmake")
-  include("C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/dependencies/JSONCPP/cmake_install.cmake")
+  include("C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/cmake-build-debug/Dependencies/GLFW/cmake_install.cmake")
 
 endif()
 

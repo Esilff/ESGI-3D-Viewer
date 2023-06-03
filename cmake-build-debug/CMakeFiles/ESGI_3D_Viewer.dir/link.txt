@@ -1,0 +1,3 @@
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\ESGI_3D_Viewer.dir/objects.a
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\ESGI_3D_Viewer.dir/objects.a @CMakeFiles\ESGI_3D_Viewer.dir\objects1
+C:\Users\Esilff\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ESGI_3D_Viewer.dir/objects.a -Wl,--no-whole-archive -o bin\ESGI_3D_Viewer.exe -Wl,--out-implib,lib\libESGI_3D_Viewer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ESGI_3D_Viewer.dir\linkLibs.rsp

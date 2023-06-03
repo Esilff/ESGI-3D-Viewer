@@ -4,6 +4,8 @@
 #include <vector>
 #include <cstdint>
 #include "../math/math.h"
+#include "../world/transform.h"
+#include "../world/Camera.h"
 #include <tiny_obj_loader.h>
 #include <glad/glad.h>
 
@@ -16,9 +18,17 @@ struct Vertex {
 struct Mesh {
     std::vector<Vertex> vertices;
     std::vector<uint32_t> indices;
+    unsigned int VBO;
+
+    Transform transform;
 
     Mesh(const std::string& objPath) {
+        glGenBuffers(1, &VBO);
         loadObj(objPath);
+    }
+
+    ~Mesh() {
+        glDeleteBuffers(1, &VBO);
     }
 
     void loadObj(const std::string& objPath) {
@@ -27,7 +37,9 @@ struct Mesh {
         std::vector<tinyobj::material_t> materials;
         std::string warn, err;
 
-        if (!tinyobj::LoadObj(&attrib, &shapes, &materials, &warn, &err, objPath.c_str())) {
+
+
+        if (!tinyobj::LoadObj(&attrib, &shapes, &materials, &warn, &err, std::string(SOURCE_DIR + std::string("/") + objPath).c_str())) {
             throw std::runtime_error(warn + err);
         }
 
@@ -56,10 +68,37 @@ struct Mesh {
                 indices.push_back(indices.size());
             }
         }
+
+
     }
 
-    void draw() {
-        glDrawArrays(GL_TRIANGLES, 0, vertices.size())
+    void draw(Camera camera, unsigned int program) {
+
+        glBindBuffer(GL_ARRAY_BUFFER, VBO);
+
+        std::vector<Vector> positions(vertices.size());
+        std::vector<Vector> normals(vertices.size());
+        std::vector<Vector2> texcoords(vertices.size());
+
+        for (int i = 0; i < vertices.size(); ++i) {
+            positions.push_back(vertices[i].position);
+            normals.push_back(vertices[i].normal);
+            texcoords.push_back(vertices[i].texcoords);
+        }
+
+        glBufferData(GL_ARRAY_BUFFER, sizeof(Vector) * positions.size(), positions.data(), GL_STATIC_DRAW);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(Vector) * normals.size(), normals.data(), GL_STATIC_DRAW);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(Vector2) * texcoords.size(), texcoords.data(), GL_STATIC_DRAW);
+
+        int loc_pos = glGetAttribLocation(program, "aPos");
+        glEnableVertexAttribArray(loc_pos);
+        glVertexAttribPointer(loc_pos, 3, GL_FLOAT, GL_FALSE,
+                              3 * sizeof(float), nullptr);
+
+        glUniform4fv(glGetUniformLocation(program, "projectionMatrix"),0, camera.getProjectionMatrix());
+        glUniform4fv(glGetUniformLocation(program, "viewMatrix"),0, camera.getViewMatrix());
+        glUniform4fv(glGetUniformLocation(program, "modelMatrix"),0, transform.getModelMatrix());
+        glDrawArrays(GL_TRIANGLES, 0, vertices.size());
     }
 };
 
