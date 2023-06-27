@@ -17,7 +17,6 @@ struct Vertex {
 
 struct Mesh {
     std::vector<Vertex> vertices;
-    std::vector<uint32_t> indices;
     unsigned int VBO;
 
     Transform transform;
@@ -49,14 +48,14 @@ struct Mesh {
 
                 vertex.position = {
                         attrib.vertices[3 * index.vertex_index + 0],
-                        attrib.vertices[3 * index.vertex_index + 1],
-                        attrib.vertices[3 * index.vertex_index + 2]
+                        attrib.vertices[3 * index.vertex_index + 2],
+                        attrib.vertices[3 * index.vertex_index + 1]
                 };
 
                 vertex.normal = {
                         attrib.normals[3 * index.normal_index + 0],
-                        attrib.normals[3 * index.normal_index + 1],
-                        attrib.normals[3 * index.normal_index + 2]
+                        attrib.normals[3 * index.normal_index + 2],
+                        attrib.normals[3 * index.normal_index + 1]
                 };
 
                 vertex.texcoords = {
@@ -65,39 +64,49 @@ struct Mesh {
                 };
 
                 vertices.push_back(vertex);
-                indices.push_back(indices.size());
+                /*vertices.clear();
+                vertices.push_back({{0.0,0.0,1.0}, {0.0,0.0,1.0}, {0.0,0.0}});
+                vertices.push_back({{0.5,0.0,1.0}, {0.0,0.0,1.0}, {0.0,0.0}});
+                vertices.push_back({{0.0,0.5,1.0}, {0.0,0.0,1.0}, {0.0,0.0}});
+*/
+
+                //indices.push_back(indices.size());
             }
         }
 
-
+        //glGenBuffers(1, &VBO);
     }
 
-    void draw(Camera camera, unsigned int program) {
+    void draw(Camera camera, Vector light, unsigned int program) {
 
         glBindBuffer(GL_ARRAY_BUFFER, VBO);
 
-        std::vector<Vector> positions(vertices.size());
-        std::vector<Vector> normals(vertices.size());
-        std::vector<Vector2> texcoords(vertices.size());
 
-        for (int i = 0; i < vertices.size(); ++i) {
-            positions.push_back(vertices[i].position);
-            normals.push_back(vertices[i].normal);
-            texcoords.push_back(vertices[i].texcoords);
-        }
 
-        glBufferData(GL_ARRAY_BUFFER, sizeof(Vector) * positions.size(), positions.data(), GL_STATIC_DRAW);
-        glBufferData(GL_ARRAY_BUFFER, sizeof(Vector) * normals.size(), normals.data(), GL_STATIC_DRAW);
-        glBufferData(GL_ARRAY_BUFFER, sizeof(Vector2) * texcoords.size(), texcoords.data(), GL_STATIC_DRAW);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(Vertex) * vertices.size(), vertices.data(), GL_STATIC_DRAW);
 
         int loc_pos = glGetAttribLocation(program, "aPos");
         glEnableVertexAttribArray(loc_pos);
         glVertexAttribPointer(loc_pos, 3, GL_FLOAT, GL_FALSE,
-                              3 * sizeof(float), nullptr);
+                              sizeof(Vertex), nullptr);
+        int normal_pos = glGetAttribLocation(program, "aNormal");
+        glEnableVertexAttribArray(normal_pos);
+        glVertexAttribPointer(normal_pos, 3, GL_FLOAT, GL_FALSE,
+                              sizeof(Vertex), (void*)(sizeof(Vector)));
+        int uv_pos = glGetAttribLocation(program, "aUv");
+        glEnableVertexAttribArray(uv_pos);
+        glVertexAttribPointer(uv_pos, 2, GL_FLOAT, GL_FALSE,
+                              sizeof(Vertex), (void*)(2*sizeof(Vector)));
 
-        glUniform4fv(glGetUniformLocation(program, "projectionMatrix"),0, camera.getProjectionMatrix());
-        glUniform4fv(glGetUniformLocation(program, "viewMatrix"),0, camera.getViewMatrix());
-        glUniform4fv(glGetUniformLocation(program, "modelMatrix"),0, transform.getModelMatrix());
+
+        glUniform1i(glGetUniformLocation(program, "texId"), 1);
+
+        glUniform3f(glGetUniformLocation(program, "uLight"), light.x, light.y, light.z);
+
+        glUniformMatrix4fv(glGetUniformLocation(program, "rotMatrix"),1, true, Matrix().quaternionToMatrix(transform.rotation));
+        glUniformMatrix4fv(glGetUniformLocation(program, "projectionMatrix"),1, true, camera.getProjectionMatrix());
+        glUniformMatrix4fv(glGetUniformLocation(program, "viewMatrix"),1, true, camera.getViewMatrix());
+        glUniformMatrix4fv(glGetUniformLocation(program, "modelMatrix"),1, true, transform.getModelMatrix());
         glDrawArrays(GL_TRIANGLES, 0, vertices.size());
     }
 };

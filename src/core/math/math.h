@@ -189,11 +189,11 @@ public:
         matrix[8] = 0.0f;
         matrix[9] = 0.0f;
         matrix[10] = -(farPlane + nearPlane) / frustumLength;
-        matrix[11] = -1.0f;
+        matrix[11] =  -(2.0f * farPlane * nearPlane) / frustumLength;
 
         matrix[12] = 0.0f;
         matrix[13] = 0.0f;
-        matrix[14] = -(2.0f * farPlane * nearPlane) / frustumLength;
+        matrix[14] = -1.0f;
         matrix[15] = 0.0f;
 
         return matrix;
@@ -236,7 +236,7 @@ public:
         rotate.matrix = rotation;
         Matrix scaling;
         scaling.matrix = scale;
-        Matrix model = translate * rotate;
+        Matrix model =  scaling * rotate * translate;
         return model.matrix;
     }
     Matrix();

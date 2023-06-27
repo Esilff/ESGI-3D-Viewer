@@ -854,6 +854,7 @@ CMakeFiles/ESGI_3D_Viewer.dir/src/core/window.cpp.obj
  C:/Users/Esilff/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h
  C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/src/core/events/events.h
  C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/src/core/window.h
+ C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/src/core/rendering/texture.h
 
 CMakeFiles/ESGI_3D_Viewer.dir/src/core/world/Camera.cpp.obj
  C:/Users/Esilff/Documents/Git/ESGI-3D-Viewer/src/core/world/Camera.cpp

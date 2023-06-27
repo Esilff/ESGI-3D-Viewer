@@ -8,7 +8,7 @@ Camera::Camera() {
     target = transform.forward();
     fov = 90;
     aspectRatio = 16/9;
-    nearPlane= 0.01;
+    nearPlane= 0.1;
     farPlane = 1000;
 }
 
