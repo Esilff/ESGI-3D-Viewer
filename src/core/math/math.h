@@ -198,7 +198,6 @@ public:
 
         return matrix;
     }
-
     static float* viewMatrix(const Vector& position, const Vector& target, const Vector& up) {
         Vector forward = (target - position).normalize();
         Vector right = Vector::cross(up, forward).normalize();
@@ -219,7 +218,7 @@ public:
         viewMatrix[2] = -forward.x;
         viewMatrix[6] = -forward.y;
         viewMatrix[10] = -forward.z;
-        viewMatrix[14] = Vector::dot(forward, position);
+        viewMatrix[14] = -Vector::dot(forward, position); // Negate the result here
 
         viewMatrix[3] = 0.0f;
         viewMatrix[7] = 0.0f;
@@ -228,6 +227,7 @@ public:
 
         return viewMatrix;
     }
+
 
     static float* modelMatrix(float* translation, float* rotation, float* scale) {
         Matrix translate;

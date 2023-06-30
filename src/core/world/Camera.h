@@ -13,7 +13,7 @@ struct Vector;
 struct Quaternion;
 
 class Camera {
-    Transform transform;
+
     Vector target;
     float fov;
     float aspectRatio;
@@ -22,6 +22,7 @@ class Camera {
 
 public:
 
+    Transform transform;
     Camera();
 
     float* getViewMatrix() const;

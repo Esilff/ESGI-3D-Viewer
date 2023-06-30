@@ -101,9 +101,9 @@ struct Mesh {
 
         glUniform1i(glGetUniformLocation(program, "texId"), 1);
 
-        glUniform3f(glGetUniformLocation(program, "uLight"), light.x, light.y, light.z);
+        //glUniform3f(glGetUniformLocation(program, "uLight"), light.x, light.y, light.z);
 
-        glUniformMatrix4fv(glGetUniformLocation(program, "rotMatrix"),1, true, Matrix().quaternionToMatrix(transform.rotation));
+        //glUniformMatrix4fv(glGetUniformLocation(program, "rotMatrix"),1, true, Matrix().quaternionToMatrix(transform.rotation));
         glUniformMatrix4fv(glGetUniformLocation(program, "projectionMatrix"),1, true, camera.getProjectionMatrix());
         glUniformMatrix4fv(glGetUniformLocation(program, "viewMatrix"),1, true, camera.getViewMatrix());
         glUniformMatrix4fv(glGetUniformLocation(program, "modelMatrix"),1, true, transform.getModelMatrix());
